@@ -1,3 +1,165 @@
-@media (max-width: 1160px) {
+@media screen and (max-width: 1160px) {
+    h1 {
+        font-size: 33px;
+        max-width: 680px;
+        margin-top: 87px;
+    }
+
+    h3 {
+        font-size: 16px;
+        margin-top: 11px;
+    }
+
+    .header {   
+        &__top-info {
+            &__logo {
+                width: 236px;
+                height: 71px;
+            }
+            &__text {
+                font-size: 17px;
+            }
+            &__contacts {
+                width: 215px;
+                &_whatsapp {
+                    margin-top: -4px;
+                    & img {
+                        width: 33px;
+                        height: 33px;
+                    }
+                }
+                &_phone {
+                    font-size: 19px;
+                    & span {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    
+        &__define-text {
+            font-size: 16px;
+            max-width: 480px;
+        }
+    
+        &__define-button {
+            width: 300px;
+            height: 80px;
+            font-size: 13px;
+        }
+    
+        &__watch {
+            margin-top: 77px;
+            & div {
+                width: 224px;
+                height: 224px;
+                padding: 8px;
+                &:first-child {
+                    margin-right: 20px;
+                }
+                & div {
+                    width: 208px;
+                    height: 208px;
+                    img {
+                        height: 112px;
+                    }
+                    p {
+                        font-size: 11px;
+                        margin-top: 8px;
+                    }
+                }         
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 940px) {
+    h1 {
+        font-size: 26px;
+        max-width: 540px;
+        margin-top: 87px;
+    }
+
+    .header {
+        &__top-info {
+            &__text {
+                margin: 0 0 0 78px;
+            }
+            &__contacts {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .header {
+        &__top-info {
+            &__text {
+                margin: 0 0 0 40px;
+            }
+        }
+
+        &__define-button {
+            margin-top: 40px;
+        }
+
+        &__watch {
+            margin-top: 60px;
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    h1 {
+        font-size: 21px;
+        max-width: 440px;
+        margin-top: 60px;
+    }
+
+    .header {
+        &__top-info {
+            flex-direction: column;
+            justify-content: center;
+            &__text {
+                margin: 30px 0 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 565px) {
+    h1 {
+        text-align: center;
+    }
+
+    .header {
+        &__top-info {
+            &__text {
+                max-width: 250px;
+            }
+        }
+
+        &__define-text {
+            text-align: center;
+        }
+    
+        &__define-button {
+            position: relative;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+
+        &__watch {
+            flex-direction: column;
+            align-items: center;
+
+            & div {
+                &:first-child {
+                    margin: 0 0 30px;
+                }
+            }
+        }
+    }
 
 }
