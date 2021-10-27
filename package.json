@@ -1,0 +1,45 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "Gulp + Webpack",
+  "author": "Vladislav Monvizh-Montvid",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Metalfatality"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "browser-sync": "^2.26.12",
+    "core-js": "^3.8.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.1.0",
+    "webpack": "^4.46.0",
+    "webpack-stream": "^5.2.1"
+  },
+  "browserslist": [
+    "chrome 62",
+    "safari 11",
+    "firefox 56",
+    "edge 17",
+    "samsung 11.2",
+    "opera 48",
+    "ios_saf 11"
+  ],
+  "dependencies": {
+    "aos": "^3.0.0-beta.6"
+  }
+}
