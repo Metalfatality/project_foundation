@@ -1,0 +1,30 @@
+.differences {
+    background-image: url(../img/clouds-background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 131px 0 328px;
+    margin-bottom: 66px;
+    text-align: center;
+
+    &__question {
+        font-family: 'Old Standard TT', serif;
+        font-style: italic;
+        font-size: 22px;
+        line-height: 120%;
+        color: #747474;
+    }
+
+    &__advantages {
+        margin-top: 121px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 280px);
+        gap: 66px 60px;
+        justify-content: center;
+        text-align: left;
+        & p {
+            margin-top: 10px;
+            font-size: 16px;
+            line-height: 150%;
+        }
+    }
+}
