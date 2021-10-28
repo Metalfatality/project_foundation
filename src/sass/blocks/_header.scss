@@ -1,7 +1,8 @@
 .header {
-    background-image: url(../img/main-background.jpg);
-    background-size: cover;
-    background-position: center;
+    background: url(../img/main-background.jpg) no-repeat center/cover;
+    @supports (background: url('../img/main-background.webp')) {
+        background: url('../img/main-background.webp') no-repeat center/cover;
+    }
     padding: 20px 0 97px;
 
     &__top-info {
